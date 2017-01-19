@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --devtool eval --hot --inline --progress --color --port 9999"
+    "start": "webpack-dev-server --devtool eval --hot --inline --progress --color --port 9998"
   },
   "repository": {
     "type": "git",

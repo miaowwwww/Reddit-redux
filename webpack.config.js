@@ -40,7 +40,7 @@ module.exports = {
       // filename: 'index.html',
       template: './build/index.html'
     }),
-    new OpenBrowserPlugin({ url: 'http://localhost:9999' }),
+    new OpenBrowserPlugin({ url: 'http://localhost:9998' }),
     // new ExtractTextPlugin("styles.css"), //没有成功？难道因为我用的是less
     new webpack.optimize.CommonsChunkPlugin(/* chunkName= */'flexible', /* filename= */'flexible.js')
     // new webpack.optimize.UglifyJsPlugin({
